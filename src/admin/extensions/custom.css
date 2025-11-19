@@ -1,0 +1,22 @@
+/* VRCafe CMS Custom Styling */
+
+/* Zwarte achtergrond zonder pattern */
+main[aria-labelledby="main-content-title"],
+body {
+  background-color: #1E1921 !important;
+}
+
+/* Menu logo groter maken */
+nav[aria-label="Main"] img,
+aside img[alt*="logo"] {
+  max-width: 100% !important;
+  width: 150px !important;
+  height: auto !important;
+  padding: 16px !important;
+}
+
+/* Logo in header groter maken */
+header img[alt*="logo"] {
+  width: 120px !important;
+  height: auto !important;
+}
